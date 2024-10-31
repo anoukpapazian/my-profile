@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    color: #333; /* Couleur de texte plus sombre */
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #000; /* Couleur des icônes en noir */
+    font-size: 24px; /* Taille des icônes */
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s; /* Transition fluide pour les effets de survol */
+}
+
+ul li a:hover {
+    color: #555; /* Changer la couleur des icônes au survol */
+    transform: scale(1.1); /* Légèrement agrandir l'icône au survol */
+}
+
+/* Design personnalisé avec la classe */
+.carte-white { /* Utiliser .carte-white pour la classe */
+    background-color: white; /* Couleur de fond blanche pour le bloc */
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+/* Design Responsive */
+@media (max-width: 600px) {
+    img {
+        max-width: 150px; /* Image de profil plus petite sur mobile */
+    }
+    .carte-white {
+        padding: 20px; /* Moins de padding sur les écrans plus petits */
+    }
+    ul li a {
+        font-size: 20px; /* Taille d'icône plus petite sur mobile */
+    }
+}
+
+
+
+
+
+
+
+    
